@@ -1,0 +1,14 @@
+name: "tier 1 up"
+on:
+  push:
+    branches:
+      - "main"
+permissions:
+  pull-requests: write
+  contents: read
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
