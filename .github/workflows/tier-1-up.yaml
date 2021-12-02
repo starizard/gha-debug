@@ -15,5 +15,6 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: my-step
         run: echo "Hello World!"
