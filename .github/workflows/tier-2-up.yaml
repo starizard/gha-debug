@@ -1,8 +1,8 @@
-name: "[cloud] tier 2: up"
+name: "tier 2: up"
 on:
   workflow_run:
     workflows:
-      - "[cloud] tier 1: up"
+      - "tier 1: up"
     branches:
       - main
     types:
