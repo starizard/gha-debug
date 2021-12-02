@@ -17,4 +17,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: my-step
-        run: echo "Hello World!"
+        run: sleep 10 && echo "Hello World!"
