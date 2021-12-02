@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - "main"
+    paths:
+      - cloud/**
 permissions:
   pull-requests: write
   contents: read
