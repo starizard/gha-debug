@@ -1,4 +1,4 @@
-name: "[cloud] tier 1 up"
+name: "[cloud] tier 1: up"
 on:
   push:
     branches:
