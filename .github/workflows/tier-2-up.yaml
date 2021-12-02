@@ -10,6 +10,9 @@ on:
 permissions:
   pull-requests: write
   contents: read
+defaults:
+  run:
+    working-directory: cloud/
 jobs:
   hello-world:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
