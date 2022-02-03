@@ -5,6 +5,8 @@ on:
       - "main"
     paths:
       - cloud/**
+    tags:
+      - "*"
 permissions:
   pull-requests: write
   contents: read
